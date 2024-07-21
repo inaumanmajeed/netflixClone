@@ -1,7 +1,6 @@
 const routes = {
-    profile: "/profiles",
-    browse: "/browse",
-}
-
+  profile: "/profiles",
+  browse: "/browse",
+};
 
 export default routes;

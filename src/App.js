@@ -1,8 +1,8 @@
-import './App.css';
+import "./App.css";
 import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import MainPage from './screens/mainPage';
-import ManageProfile from './screens/manageProfile';
+import MainPage from "./screens/mainPage";
+import ManageProfile from "./screens/manageProfile";
 
 function App() {
   return (

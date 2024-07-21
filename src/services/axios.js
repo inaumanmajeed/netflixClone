@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const networkService = axios.create({
-    baseURL:"https://api.themoviedb.org/3"
+  baseURL: process.env.REACT_APP_API_URL,
 });
 
-export const imageBaseUrl = "https://image.tmdb.org/t/p/original/";
+export const imageBaseUrl = process.env.REACT_APP_API_IMG_URL;
 
 export default networkService;
